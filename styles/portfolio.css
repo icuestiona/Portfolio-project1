@@ -1,0 +1,14 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+
+body {
+  background: rgb(219, 65, 65);
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: aquamarine;
+}
