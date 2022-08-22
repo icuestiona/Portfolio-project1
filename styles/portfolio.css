@@ -94,6 +94,7 @@ img {
   max-width: 80%;
   height: auto;
   margin-left: 70px;
+  border-radius: 15px;
 }
 
 .btn-branding {
