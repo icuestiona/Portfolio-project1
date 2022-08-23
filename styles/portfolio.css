@@ -66,14 +66,10 @@ img {
   font-size: 24px;
   color: white;
 }
-.content img {
-  max-width: 100%;
-  height: auto;
-}
+
 .content-container img {
-  max-width: 80%;
+  max-width: 85%;
   height: auto;
-  margin-left: 70px;
   border-radius: 15px;
 }
 .content-container {
