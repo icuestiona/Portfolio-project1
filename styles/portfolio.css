@@ -44,7 +44,7 @@ p {
   line-height: 30px;
 }
 img {
-  width: 600px;
+  width: 100%;
 }
 
 .hero {
@@ -65,12 +65,13 @@ img {
   font-size: 24px;
   color: white;
 }
-.photo {
-  max-height: 450px;
-}
-
 .content-container {
   padding: 160px 20px;
+}
+.about-photo {
+  width: 448px;
+  height: 448px;
+  padding: 10px;
 }
 .content h1 {
   font-family: var(--heading-font-family);
