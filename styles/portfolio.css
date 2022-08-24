@@ -3,6 +3,7 @@ font-family: 'Poppins', sans-serif;*/
 :root {
   --branding-color: #c2b9b0;
   --alternative-color: #123c69;
+  --secondary-color: #afd275;
   --secondary-color: linear-gradient(
     to bottom right,
     #f9c395,
@@ -37,6 +38,9 @@ h2 {
   color: black;
   font-size: 64px;
   font-weight: bold;
+}
+h4 {
+  font-size: 48px;
 }
 p {
   font-weight: normal;
@@ -153,6 +157,46 @@ nav a {
 nav a:hover,
 nav li.active {
   color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: #f4f7f6;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-box h4 {
+  color: black;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--alternative-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
