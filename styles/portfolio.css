@@ -3,7 +3,7 @@ font-family: 'Poppins', sans-serif;*/
 :root {
   --branding-color: #c2b9b0;
   --alternative-color: #123c69;
-  --secondary-color: #afd275;
+  --third-color: #afd275;
   --secondary-color: linear-gradient(
     to bottom right,
     #f9c395,
@@ -73,10 +73,11 @@ img {
   padding: 160px 20px;
 }
 .about-photo {
-  width: 448px;
-  height: 448px;
+  width: 400px;
+  height: 382px;
   padding: 10px;
 }
+
 .content h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
@@ -106,6 +107,7 @@ img {
 .content {
   margin: 30px;
 }
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -182,7 +184,7 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: var(--secondary-color);
+  color: var(--third-color);
 }
 
 footer .social-links a {
@@ -197,6 +199,10 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+footer .btn-branding:hover {
+  background-color: var(--alternative-color);
+  color: white;
 }
 
 @media (max-width: 900px) {
@@ -215,7 +221,7 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
-  .content-content {
+  .content-container {
     text-align: center;
     padding: 0;
   }
