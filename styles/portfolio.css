@@ -118,6 +118,7 @@ img {
 }
 .btn-branding:hover {
   background-color: var(--third-color);
+  color: white;
 }
 
 .btn-branding-outline {
