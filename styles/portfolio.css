@@ -122,7 +122,7 @@ img {
 }
 .btn-primary {
   background: var(--third-color);
-  border: 1px solid var(--third-color);
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -136,7 +136,7 @@ img {
 }
 .btn-secondary {
   background: var(--alternative-color);
-  border: 1px solid var(--alternative-color);
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
